@@ -1,0 +1,28 @@
+{
+  "defaultMode": "plan",
+  "permissions": {
+    "allow": [
+      "Read",
+      "Grep",
+      "Glob",
+      "Bash(pytest *)",
+      "Bash(black *)",
+      "Bash(ruff *)",
+      "Bash(terraform fmt *)",
+      "Bash(terraform validate *)",
+      "Bash(git diff *)",
+      "Bash(git status)",
+      "Bash(git log *)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./infra/*.tfstate)",
+      "Read(./infra/*.tfstate.backup)",
+      "Bash(terraform apply *)",
+      "Bash(terraform destroy *)",
+      "Bash(aws *)",
+      "Bash(rm -rf *)"
+    ]
+  }
+}
