@@ -1,0 +1,41 @@
+PROFESSIONAL SERVICES AGREEMENT
+
+THIS PROFESSIONAL SERVICES AGREEMENT (the "Agreement") is made and entered
+into effective as of January 8, 2026, between Helios Cloud Partners LLC, a
+Texas limited liability company ("Consultant"), and Meridian Health Systems,
+Inc., a Massachusetts corporation ("Client").
+
+SCOPE OF SERVICES. Consultant shall provide cloud migration services as
+described in Statement of Work #2026-01.
+
+FEES AND PAYMENT. Client shall pay Consultant the following fees, invoiced
+monthly:
+
+  Discovery and architecture phase (Weeks 1-4):    $48,000.00
+  Migration execution (Weeks 5-16):               $192,000.00
+  Post-migration support (Weeks 17-20):            $36,000.00
+  Project management (across all phases):          $24,000.00
+                                                  ─────────────
+  Total Contract Value:                           $300,000.00
+
+TERM. This Agreement commences on the Effective Date and continues for
+twenty (20) weeks unless extended in writing by both parties.
+
+TERMINATION. Either party may terminate this Agreement upon thirty (30) days
+written notice. If Client terminates without cause, Client shall pay for all
+services performed through the date of termination plus a 10% wind-down fee
+calculated on remaining contract value.
+
+INDEMNIFICATION. Consultant agrees to indemnify, defend, and hold harmless
+Client from any third-party claims arising from Consultant's negligent
+performance of the services. This indemnification shall not apply to claims
+arising from Client's modifications to Consultant's deliverables.
+
+GOVERNING LAW. This Agreement shall be governed by the laws of the
+Commonwealth of Massachusetts.
+
+ACCEPTED AND AGREED:
+
+Helios Cloud Partners LLC                 Meridian Health Systems, Inc.
+________________________                  ________________________
+Authorized Signature                      Authorized Signature

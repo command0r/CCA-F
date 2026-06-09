@@ -1,0 +1,48 @@
+MUTUAL NON-DISCLOSURE AGREEMENT
+
+This Mutual Non-Disclosure Agreement ("Agreement") is entered into as of
+April 22, 2026 between Quantum Edge Robotics Ltd., a company incorporated
+under the laws of England and Wales ("Party A") and Sentinel Defense
+Solutions, Inc., a Virginia corporation ("Party B"). Party A and Party B are
+each a "Party" and collectively the "Parties."
+
+1. PURPOSE. The Parties wish to explore a potential business relationship
+involving the development of autonomous perimeter monitoring systems (the
+"Purpose"). In connection with the Purpose, each Party may disclose to the
+other certain confidential and proprietary information.
+
+2. CONFIDENTIAL INFORMATION. "Confidential Information" means any information
+disclosed by one Party (the "Disclosing Party") to the other Party (the
+"Receiving Party"), whether orally, in writing, or in any other form, that
+is designated as confidential or that, given the nature of the information
+or the circumstances of disclosure, should reasonably be understood as
+confidential.
+
+3. OBLIGATIONS. The Receiving Party shall: (a) hold the Confidential
+Information in strict confidence; (b) not disclose Confidential Information
+to any third party without the prior written consent of the Disclosing
+Party; (c) use the Confidential Information solely for the Purpose; and
+(d) protect the Confidential Information using the same degree of care it
+uses to protect its own confidential information, but in no event less than
+reasonable care.
+
+4. EXCLUSIONS. The obligations of confidentiality shall not apply to
+information that: (a) is or becomes publicly known through no breach of
+this Agreement; (b) was rightfully known to the Receiving Party prior to
+disclosure; (c) is rightfully obtained from a third party without breach of
+any confidentiality obligation; or (d) is independently developed without
+reference to the Confidential Information.
+
+5. TERM. This Agreement shall remain in effect for a period of three (3)
+years from the date first written above. The obligations of confidentiality
+shall survive termination of this Agreement for an additional period of
+five (5) years.
+
+6. GOVERNING LAW. This Agreement shall be governed by the laws of the State
+of Delaware. The Parties hereby submit to the exclusive jurisdiction of the
+state and federal courts located in Wilmington, Delaware.
+
+IN WITNESS WHEREOF, the Parties have executed this Agreement.
+
+Quantum Edge Robotics Ltd.                Sentinel Defense Solutions, Inc.
+By: ___________________                   By: ___________________

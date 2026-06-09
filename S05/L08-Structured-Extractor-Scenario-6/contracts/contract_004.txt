@@ -1,0 +1,53 @@
+SOFTWARE DEVELOPMENT SERVICES AGREEMENT
+
+This Software Development Services Agreement (the "Agreement") is made
+effective as of February 12, 2026, between Polaris Engineering Studios LLC,
+a California limited liability company ("Studio"), and Greenfield Energy
+Cooperative, a Colorado nonprofit cooperative ("Sponsor").
+
+1. SERVICES. Studio will design, build, and deliver the Greenfield Member
+Portal, a customer-facing web application for energy account management,
+billing visibility, and conservation goal tracking. The full feature
+specification is set forth in Exhibit A.
+
+2. COMPENSATION. Sponsor shall compensate Studio according to the following
+deliverable schedule:
+
+   Phase 1 — Discovery and design system:        $32,000.00
+   Phase 2 — Authentication and account module:  $48,000.00
+   Phase 3 — Billing and payment integration:    $62,000.00
+   Phase 4 — Conservation tracking module:       $39,000.00
+   Phase 5 — QA, accessibility audit, launch:    $24,000.00
+                                                 ─────────────
+   Total Project Investment:                    $215,000.00
+
+Payment shall be made within thirty (30) days of each phase acceptance.
+
+3. TERM. The Agreement shall commence on the Effective Date and shall
+continue until completion of all five phases, anticipated to occur within
+approximately twenty-eight (28) weeks.
+
+4. TERMINATION FOR CONVENIENCE. Sponsor may terminate this Agreement for
+convenience upon fifteen (15) days written notice. In such event, Sponsor
+shall pay Studio for all work performed through the date of termination,
+plus a kill-fee equal to twenty percent (20%) of the remaining unpaid
+contract value.
+
+5. INDEMNIFICATION. Studio agrees to indemnify and hold Sponsor harmless
+against any third-party claims that the delivered software infringes any
+existing copyright, patent, trademark, or trade secret of such third party,
+provided that Sponsor notifies Studio promptly of any such claim and grants
+Studio sole control over the defense and settlement.
+
+6. INTELLECTUAL PROPERTY. Upon final payment of all amounts due under this
+Agreement, Studio assigns to Sponsor all right, title, and interest in the
+deliverables, excluding any pre-existing Studio tools, frameworks, or
+libraries that may be incorporated into the deliverables.
+
+7. GOVERNING LAW. This Agreement shall be governed by the laws of the State
+of Colorado.
+
+EXECUTED as of the Effective Date.
+
+Polaris Engineering Studios LLC           Greenfield Energy Cooperative
+By: ___________________                   By: ___________________

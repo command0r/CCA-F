@@ -1,0 +1,53 @@
+RESELLER AGREEMENT
+
+This Reseller Agreement (this "Agreement") is entered into as of September 1,
+2026 by and between Cascade Networks Equipment Inc., a Washington corporation
+("Manufacturer"), and Pacific Rim Distribution Group GmbH, a German limited
+liability company ("Reseller").
+
+1. APPOINTMENT. Manufacturer hereby appoints Reseller as its non-exclusive
+authorized reseller of the Cascade Networks product line for the territory
+consisting of the European Economic Area, the United Kingdom, and Switzerland
+(the "Territory"), and Reseller accepts such appointment subject to the
+terms of this Agreement.
+
+2. PRODUCTS AND PRICING. Reseller may purchase Products from Manufacturer
+at the wholesale prices set forth in Exhibit B, which Manufacturer may revise
+on sixty (60) days written notice. Reseller is free to set its own resale
+prices to end customers in the Territory.
+
+3. MINIMUM PURCHASE COMMITMENT. Reseller commits to a minimum annual purchase
+volume of 4,000 units in the first contract year, increasing by ten percent
+(10%) in each subsequent year of the Term.
+
+4. TERM AND RENEWAL. The initial Term of this Agreement is three (3) years
+from the Effective Date. The Agreement shall automatically renew for
+successive one-year terms unless either party provides written notice of
+non-renewal at least one hundred eighty (180) days prior to the end of the
+then-current Term.
+
+5. TERMINATION FOR CAUSE. Either party may terminate this Agreement immediately
+upon written notice if the other party: (a) materially breaches this Agreement
+and fails to cure within thirty (30) days; (b) becomes insolvent or files for
+bankruptcy; or (c) ceases to conduct business in the ordinary course.
+
+6. INDEMNIFICATION. Manufacturer shall indemnify Reseller against any
+third-party claim that an authorized Product infringes a patent, copyright,
+or trademark, provided that the alleged infringement is based on the Product
+as delivered by Manufacturer and not on modifications made by Reseller or
+end customers.
+
+7. EXPORT CONTROL. Reseller acknowledges that the Products may be subject
+to U.S. export control laws and regulations and agrees to comply with all
+applicable export and re-export controls in conducting its business under
+this Agreement.
+
+8. GOVERNING LAW AND JURISDICTION. This Agreement shall be governed by the
+laws of the State of Washington, excluding its conflict-of-laws principles.
+The parties consent to the exclusive jurisdiction of the state and federal
+courts located in King County, Washington.
+
+SIGNED:
+
+Cascade Networks Equipment Inc.           Pacific Rim Distribution Group GmbH
+By: ___________________                   By: ___________________

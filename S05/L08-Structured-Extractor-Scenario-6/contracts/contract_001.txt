@@ -1,0 +1,42 @@
+MASTER SAAS SUBSCRIPTION AGREEMENT
+
+This Master SaaS Subscription Agreement ("Agreement") is entered into as of
+March 15, 2026 (the "Effective Date") by and between Aurora Analytics, Inc., a
+Delaware corporation with its principal place of business at 100 Market Street,
+San Francisco, CA 94105 ("Provider") and Northwind Logistics Corporation, a
+Washington corporation with its principal place of business at 500 Pike Place,
+Seattle, WA 98101 ("Customer").
+
+1. SUBSCRIPTION. Provider grants Customer a non-exclusive, non-transferable
+subscription to access the Aurora Analytics Platform ("Service") during the
+Term.
+
+2. FEES. Customer shall pay the following annual fees:
+
+   Platform license (up to 50 users):   $36,000.00
+   Premium support tier:                 $9,000.00
+   Onboarding and data migration:        $5,000.00
+   ─────────────────────────────────────────────────
+   Total Annual Fees:                   $50,000.00
+
+3. TERM AND TERMINATION. The initial term of this Agreement is twelve (12)
+months from the Effective Date, automatically renewing for successive one-year
+terms unless either party provides written notice of non-renewal at least
+sixty (60) days prior to the end of the then-current term. Either party may
+terminate for material breach upon thirty (30) days written notice if the
+breach is not cured within such period.
+
+4. INDEMNIFICATION. Each party shall indemnify and hold harmless the other
+party from and against any third-party claims arising out of the indemnifying
+party's breach of this Agreement, gross negligence, or willful misconduct.
+
+5. GOVERNING LAW. This Agreement shall be governed by the laws of the State
+of Delaware, without regard to its conflict-of-law principles.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date
+first written above.
+
+Aurora Analytics, Inc.                   Northwind Logistics Corporation
+By: ___________________                  By: ___________________
+Name:                                    Name:
+Title:                                   Title:
