@@ -21,6 +21,8 @@ CCA-F/
 ├── S05/  # Domain 4 — Prompt Engineering & Structured Output
 │   └── L08-Structured-Extractor-Scenario-6/ # tool_use + strict mode + validation-retry + Batches
 └── S06/  # Domain 5 — Context Management & Reliability
+    ├── L03-Context-Compaction/              # /compact under the hood, real token counts
+    ├── L04-Retry-Behavior-529-vs-429/       # Distinguish org rate limit from platform overload
     └── L06-Optimize-Multi-Turn-Agent/       # Prompt caching cost comparison
 ```
 
@@ -68,6 +70,8 @@ Each demo's `README.md` has the specific run command and what to look for in the
 | Domain 2 | `S03/L07` — MCP Server + Agent | Author an MCP server, consume its tools from an agent | Tool integration architecture |
 | Domain 3 | `S04/L07` — Claude Code Setup | `.claude/settings.json`, CLAUDE.md hierarchy, hooks, allowed_tools scoping | Deterministic capability control |
 | Domain 4 | `S05/L08` — Structured Extractor | `tool_use` with `strict: true`, forced `tool_choice`, validation-retry loop, Batches API | Guaranteed-schema output |
+| Domain 5 | `S06/L03` — Context Compaction | What `/compact` does under the hood — summarize old turns, keep recent verbatim, measure token drop | Context management, not window size |
+| Domain 5 | `S06/L04` — 429 vs 529 | Distinguish org rate limit from platform overload, apply the right retry strategy for each | Reliability patterns |
 | Domain 5 | `S06/L06` — Prompt Caching | Cache breakpoints, TTL choice, cache-hit-rate measurement, cost comparison | Cost audit — first lever |
 
 ---
