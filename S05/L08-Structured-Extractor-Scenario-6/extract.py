@@ -85,8 +85,28 @@ def extract(document: str) -> ContractMetadata:
         try:
             payload = ContractMetadata.model_validate(last_payload)
         except PydanticValidationError as e:
-            print(f"  attempt {attempt}: Pydantic rejected the payload — {e}")
-            return ContractMetadata.model_validate(last_payload)
+            print(f"  attempt {attempt}: Pydantic rejected the payload — retrying with feedback")
+            if attempt == MAX_RETRIES:
+                raise MaxRetriesExceeded(
+                    last_payload,
+                    [ValidationError(field="schema", message=str(e), recoverable=False)],
+                )
+            # Feed the Pydantic error back as a tool_result and let the model retry.
+            # strict:true guarantees JSON-schema conformance but Pydantic can still
+            # reject on enum values, custom validators, or cross-field rules.
+            messages.append({"role": "assistant", "content": response.content})
+            messages.append({
+                "role": "user",
+                "content": [
+                    {
+                        "type": "tool_result",
+                        "tool_use_id": tool_use_block.id,
+                        "content": f"Schema validation failed: {e}\nRe-check field types and constraints, then return a corrected extraction.",
+                        "is_error": True,
+                    }
+                ],
+            })
+            continue
 
         errors = validate(payload)
         if not errors:

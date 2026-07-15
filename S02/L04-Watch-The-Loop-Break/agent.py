@@ -22,7 +22,7 @@ if USE_MOCK:
 else:
     from anthropic import Anthropic
     client = Anthropic()
-    MODEL = "claude-sonnet-4-5"
+    MODEL = "claude-sonnet-4-6"
 
 USER_MESSAGE = "Look up order 99999 and tell me its status."
 

@@ -1,8 +1,14 @@
-# Optimize a Multi-Turn Agent for Cost and Context
+# Optimize a Shared-Prefix Agent for Cost and Context
 
 A customer support agent run two ways — baseline (no caching) and optimized
-(`cache_control` on system prompt + tools) — with per-turn token usage and cost
+(`cache_control` on system prompt + tools) — with per-call token usage and cost
 side by side.
+
+Each of the five user queries is an **independent API call**, not a multi-turn
+conversation. What's shared across the calls is the stable prefix (system prompt
++ tool definitions), which is exactly what `cache_control` caches. This mirrors
+the common production pattern of a support agent handling many independent user
+requests with the same instructions and tool set.
 
 ## Layout
 
@@ -21,11 +27,12 @@ python optimize_agent.py
 
 ## What to look for
 
-- Baseline: every turn pays full input price; `cache_read_input_tokens` is 0.
-- Cached: turn 1 pays the 1.25x cache write premium; turns 2-5 pay the 0.1x cache
-  read price (90% discount). Cache hit rate climbs to ~80% across the run.
-- Total cost reduction on a 5-turn demo is typically 40-60%. With more turns,
-  savings approach the documented Notion case (~90%).
+- Baseline: every call pays full input price; `cache_read_input_tokens` is 0.
+- Cached: call 1 pays the 1.25x cache write premium; calls 2-5 pay the 0.1x
+  cache read price (90% discount). Cache hit rate climbs to ~80% across the run.
+- Total cost reduction on a 5-call demo is typically 40-60%. With longer sessions
+  or more independent calls sharing the same prefix, savings approach the
+  documented Notion case (~90%).
 
 ## Notes
 

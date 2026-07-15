@@ -43,7 +43,13 @@ def compute_cost(usage) -> float:
 
 
 def run(mode: str) -> list[dict]:
-    """Execute the five user queries in the specified mode. Returns per-turn metrics."""
+    """Execute the five user queries in the specified mode. Returns per-call metrics.
+
+    Each query is an INDEPENDENT API call sharing only the system prompt + tools
+    as a cacheable prefix. Not a multi-turn conversation. This mirrors the common
+    production pattern where a support agent processes many independent user
+    requests, all reusing the same stable instructions and tool set.
+    """
     tools = get_cached_tools() if mode == "cached" else get_baseline_tools()
     system = get_cached_system() if mode == "cached" else get_baseline_system()
 
@@ -69,9 +75,9 @@ def run(mode: str) -> list[dict]:
 
 
 def print_results(mode: str, results: list[dict]) -> float:
-    """Pretty-print per-turn metrics. Returns total cost."""
+    """Pretty-print per-call metrics. Returns total cost."""
     print(f"\n=== {mode.upper()} ===\n")
-    print(f"  {'Turn':<6}{'Input':>8}{'CacheWr':>10}{'CacheRd':>10}{'Output':>8}{'Cost':>12}")
+    print(f"  {'Call':<6}{'Input':>8}{'CacheWr':>10}{'CacheRd':>10}{'Output':>8}{'Cost':>12}")
     print(f"  {'-'*6}{'-'*8:>8}{'-'*10:>10}{'-'*10:>10}{'-'*8:>8}{'-'*12:>12}")
     total = 0.0
     total_cache_read = 0
